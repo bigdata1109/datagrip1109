@@ -205,4 +205,3 @@ full outer join
     on log.order_id=act.order_id
 )new
 on old.id=new.id;
-select * from collect_set(1,2,3);
